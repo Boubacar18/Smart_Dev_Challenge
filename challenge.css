@@ -77,7 +77,7 @@ body
 }
 .container .left-side .images .shadow {
     position: absolute;
-    left: 8rem;
+    left: 10rem;
     top: -80px;
     width: 580px;
 }
@@ -86,7 +86,7 @@ body
 }
 .container .left-side .images .hallowin {
     position: absolute;
-    left: 15.5rem;
+    left: 17rem;
     top: 7.3rem;
     width: 330px;
 }
@@ -103,7 +103,7 @@ body
 .container .left-side .description .designation{
     position: absolute;
     top: 8.65rem;
-    left: 15.8rem;
+    left: 16.8rem;
 }
 .container .left-side .description .designation p{
     color: #ffff;
@@ -120,7 +120,7 @@ body
 .container .left-side .description .pointer>img {
     position: absolute;
     top: 6.7rem;
-    left: 23rem;
+    left: 24rem;
     height: 60px;
 }
 /*right side*/
