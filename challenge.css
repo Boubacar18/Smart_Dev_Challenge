@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+
+}
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+}
+body
+{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(160deg, #66A85C , #03401F );
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo{
+    position: relative;
+    margin-left: 220px;
+    padding-top: 5px;
+    width: 90px;
+}
+.header .logo img{
+    width: 100%;
+}
+.navs{
+    position: relative;
+    display: flex;
+    margin-right: 240px;
+}
+.header .navs li {
+    list-style: none;
+    padding: 7px 15px;
+    margin-left: 27px;
+    color: #ffff;
+    cursor: pointer;
+    text-align: center;
+    height: max-content;
+    font-size: 10px;
+}
+.navs li:last-child{
+    border: 1px solid #ffff;
+    border-radius: 25px;
+}
+.header .navs li:hover{
+    border: 1px solid #ffff;
+    border-radius: 25px;
+}
+/* Container */
+.container {
+    width: 100%;
+    height: 600.69px;
+}
+.container .left-side {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.container .left-side .images{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.container .left-side .images .shadow {
+    position: absolute;
+    left: 8rem;
+    top: -80px;
+    width: 580px;
+}
+.container .left-side .images .shadow img{
+    width: 100%;
+}
+.container .left-side .images .hallowin {
+    position: absolute;
+    left: 15.5rem;
+    top: 7.3rem;
+    width: 330px;
+}
+.container .left-side .images .hallowin img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .left-side .description{
+    position: relative;
+    display: flex;
+    height: 50%;
+}
+.container .left-side .description .designation{
+    position: absolute;
+    top: 8.65rem;
+    left: 15.8rem;
+}
+.container .left-side .description .designation p{
+    color: #ffff;
+    text-align: end;
+}
+.description .designation .text-first{
+    font-size: 13px;
+}
+.description .designation .text-second{
+    font-size: 9px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.685);
+}
+.container .left-side .description .pointer>img {
+    position: absolute;
+    top: 6.7rem;
+    left: 23rem;
+    height: 60px;
+}
+/*right side*/
+.container .right-side {
+    display: flex;
+    width: 50%;
+}
+.container .right-side .desc{
+    position: relative;
+    padding-top: 70px;
+    padding-left: 50px;
+    color: #ffff;
+}
+.desc h3 {
+    font-size: 17.5px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.desc h1 {
+    width: 300px;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.desc h5 {
+    width: 350px;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 23px;
+}
+.desc .bouton-fleche{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.desc .bouton-fleche .bouton-plein{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-image: url("svg/btn-svg-filled.svg");
+    background-size: cover;
+    background-color: transparent;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+.desc .bouton-fleche .text-fleche{
+    display: flex;
+    margin-top: 12px;
+}
+.desc .bouton-fleche .text-fleche span{
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 8px;
+}
+.desc .bouton-fleche .text-fleche .fleche>img{
+    margin-bottom: 2px;
+}
+.container .right-side .pointilles{
+    padding-left: 130px;
+    margin-top: 215px;
+    height: 130px;
+}
+.container .right-side .pointilles img{
+    height: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .bouton-vide{
+    width: 121px;
+    height: 60px;
+    margin-top: -6rem;
+    margin-left: 36rem;
+    border: none;
+    background-image: url("svg/btn-svg-not-filled.svg");
+    background-size: cover;
+    background-color: transparent;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffff;
+}
+.footer .scrolls .souris{
+    height: 37px;
+    margin-right: 8.2rem;
+    margin-top: -7rem;
+}
+.footer .scrolls .souris img{
+    height: 100%;
+}
+.footer .scrolls p{
+    width: 50px;
+    font-size: 8px;
+    font-weight: 300;
+    color: #ffff;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: -14px;
+}
